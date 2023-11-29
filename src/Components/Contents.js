@@ -534,14 +534,14 @@ export function Projects() {
 
 export function Contact() {
   const outer = { width: "100%", height: "100%" };
-  const fontstyle = { fontSize: "xx-large" };
+  const fontstyle = { fontSize: "x-large" };
   return (
     <div
       className=" d-flex flex-column justify-content-center align-items-center text-light p-3"
       style={outer}
     >
       <h1 className="h1 display-5 fw-bold">Contact</h1>
-      <div className="d-flex flex-wrap " style={outer}>
+      <div className="d-flex flex-wrap  p-4 " style={outer}>
         <div className=" w-50" style={fontstyle}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
